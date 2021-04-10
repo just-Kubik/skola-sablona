@@ -20,7 +20,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Jakub Brandejs</strong> <span>photography</span></a>
+						<a href="index.php" class="logo"><strong>Jakub Brandejs</strong> <span>photography</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -29,7 +29,7 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<li><a href="krajinky.html">Krajinky</a></li>
 							<li><a href="nocnifotografie.html">Noční fotografie</a></li>
 							<li><a href="dronovky.html">Dronovky</a></li>
