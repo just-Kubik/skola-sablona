@@ -6,12 +6,10 @@
 -->
 <html>
 	<head>
-		<title></title>
-		<title>Jakub Brandejs Photography</title>
+		<title>Noční fotografie - Jakub Brandejs</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css?v=<?=time()?>" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -20,7 +18,8 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
 						<a href="index.php" class="logo"><strong>Jakub Brandejs</strong> <span>photography</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
@@ -32,7 +31,6 @@
 						<ul class="links">
 							<li><a href="index.php">Home</a></li>
 							<li><a href="krajinky.php">Krajinky</a></li>
-							<li><a href="nocnifotografie.php">Noční fotografie</a></li>
 							<li><a href="dronovky.php">Dronovky</a></li>
 							<li><a href="portrety.php">Portréty</a></li>
 							<li><a href="me.php">O mě</a></li>
@@ -46,83 +44,128 @@
 					</nav>
 
 				<!-- Banner -->
-				<section id="banner">
-					<div class="inner">
-						<h2>Jakub Brandejs</h2>
-						<p>Osobní portfolio</p>
-					</div>
-				</section>
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/nocnifoto/pic07.JPG" alt="" />
+							</span>
+							<header class="major">
+								<h1>Noční fotografie</h1>
+							</header>
+							<div class="content">
+								<p>Lorem ipsum dolor sit amet nullam consequat<br />
+								sed veroeros. tempus adipiscing nulla.</p>
+							</div>
+						</div>
+					</section>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
+							<section id="one">
+								<div class="inner">
 									<header class="major">
-										<h3><a href="krajinky.php" class="link">Krajinky</a></h3>
-										<p>Ipsum dolor sit amet</p>
+										<h2>Sed amet aliquam</h2>
 									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="nocnifotografie.php" class="link">Noční fotografie</a></h3>
-										<p>feugiat amet tempus</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="dronovky.php" class="link">Dronovky</a></h3>
-										<p>Lorem etiam nullam</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="portrety.php" class="link">Portréty</a></h3>
-										<p>Nisl sed aliquam</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="me.php" class="link">O mně</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="ostatni.php" class="link">Ostatní fotografie</a></h3>
-										<p>Feugiat amet tempus</p>
-									</header>
-								</article>
+									<p>onsequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+								</div>
 							</section>
 
 						<!-- Two -->
-							<section id="two">
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.php" class="image">
+										<img src="images/nocnifoto/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Orci maecenas</h3>
+											</header>
+											<p>Neco sem napisu</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.php" class="image">
+										<img src="images/nocnifoto/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Rhoncus magna</h3>
+											</header>
+											<p>Neco sem napisu</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.php" class="image">
+										<img src="images/nocnifoto/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Neco sem napisu</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.php" class="image">
+										<img src="images/nocnifoto/pic11.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Neco sem napisu</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.php" class="image">
+										<img src="images/nocnifoto/pic12.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Neco sem napisu</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
 								<div class="inner">
 									<header class="major">
 										<h2>Massa libero</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p>Neco sem napisu</p>
 									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
+										<li><a href="generic.php" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>

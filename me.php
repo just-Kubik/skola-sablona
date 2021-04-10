@@ -6,10 +6,10 @@
 -->
 <html>
 	<head>
-		<title>Dronovky - Jakub Brandejs</title>
+		<title>O mě - Jakub Brandejs</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css?v=<?=time()?>" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -30,11 +30,12 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.php">Home</a></li>
-							<li><a href="krajinky.html">Krajinky</a></li>
-							<li><a href="nocnifotografie.html">Noční fotografie</a></li>
-							<li><a href="portrety.html">Portréty</a></li>
-							<li><a href="me.html">O mě</a></li>
-							<li><a href="ostatni.html">Ostatní</a></li>
+							<li><a href="krajinky.php">Krajinky</a></li>
+							<li><a href="nocnifotografie.php">Noční fotografie</a></li>
+							<li><a href="dronovky.php">Dronovky</a></li>
+							<li><a href="portrety.php">Portréty</a></li>
+							<li><a href="ostatni.php">Ostatní</a></li>
+							<li><a href="znamky.php">Známky</a></li>
 						</ul>
 						<ul class="actions stacked">
 							<li><a href="#" class="button primary fit">Get Started</a></li>
@@ -47,14 +48,13 @@
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
-								<img src="images/dronovky/pic07.jpg" alt="" />
+								<img src="images/me/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>Dronovky</h1>
+								<h1>O mě</h1>
 							</header>
 							<div class="content">
-								<p>Lorem ipsum dolor sit amet nullam consequat<br />
-								sed veroeros. tempus adipiscing nulla.</p>
+								<p>Moje fotky krajinek a přírody<br /></p>
 							</div>
 						</div>
 					</section>
@@ -66,17 +66,17 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Sed amet aliquam</h2>
+										<h2>Celý tento obdelnik hodit dopice</h2>
 									</header>
-									<p>onsequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/dronovky/pic08.JPG" alt="" data-position="center center" />
+									<a href="generic.php" class="image">
+										<img src="images/me/pic08.JPG" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -91,8 +91,8 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/dronovky/pic09.jpg" alt="" data-position="top center" />
+									<a href="generic.php" class="image">
+										<img src="images/me/pic09.JPG" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -106,17 +106,18 @@
 										</div>
 									</div>
 								</section>
-							</section>
 								
+							</section>
+
 						<!-- Three -->
 							<section id="three">
 								<div class="inner">
 									<header class="major">
 										<h2>Massa libero</h2>
 									</header>
-									<p>Neco sem napisu</p>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
+										<li><a href="generic.php" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>

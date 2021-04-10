@@ -6,10 +6,10 @@
 -->
 <html>
 	<head>
-		<title>Ostatní - Jakub Brandejs</title>
+		<title>Krajinky - Jakub Brandejs</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css?v=<?=time()?>" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -30,12 +30,13 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.php">Home</a></li>
-							<li><a href="krajinky.html">Krajinky</a></li>
-							<li><a href="nocnifotografie.html">Noční fotografie</a></li>
-							<li><a href="dronovky.html">Dronovky</a></li>
-							<li><a href="portrety.html">Portréty</a></li>
-							<li><a href="me.html">O mě</a></li>
-							
+
+							<li><a href="nocnifotografie.php">Noční fotografie</a></li>
+							<li><a href="dronovky.php">Dronovky</a></li>
+							<li><a href="portrety.php">Portréty</a></li>
+							<li><a href="me.php">O mě</a></li>
+							<li><a href="ostatni.php">Ostatní</a></li>
+							<li><a href="znamky.php">Známky</a></li>
 						</ul>
 						<ul class="actions stacked">
 							<li><a href="#" class="button primary fit">Get Started</a></li>
@@ -51,7 +52,7 @@
 								<img src="images/krajinky/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>Ostatní</h1>
+								<h1>Krajinky</h1>
 							</header>
 							<div class="content">
 								<p>Moje fotky krajinek a přírody<br /></p>
@@ -75,8 +76,8 @@
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/ostatni/pic08.JPG" alt="" data-position="center center" />
+									<a href="generic.php" class="image">
+										<img src="images/krajinky/pic08.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -91,8 +92,8 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/ostatni/pic09.jpg" alt="" data-position="top center" />
+									<a href="generic.php" class="image">
+										<img src="images/krajinky/pic09.jpg" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -107,8 +108,8 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/ostatni/pic10.JPG" alt="" data-position="25% 25%" />
+									<a href="generic.php" class="image">
+										<img src="images/krajinky/pic10.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -123,8 +124,24 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/ostatni/pic11.jpg" alt="" data-position="25% 25%" />
+									<a href="generic.php" class="image">
+										<img src="images/krajinky/pic11.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Neco sem proste napisu</p>
+											<ul class="actions">
+												
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.php" class="image">
+										<img src="images/krajinky/pic12.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -148,7 +165,7 @@
 									</header>
 									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
+										<li><a href="generic.php" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
