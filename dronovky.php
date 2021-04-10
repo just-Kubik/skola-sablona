@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css?v=<?=time()?>" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
