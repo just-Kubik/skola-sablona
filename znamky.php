@@ -1,3 +1,11 @@
+<?php
+$dsn = "mysql:host=127.0.0.1;dbname=znamky";
+$connection = new PDO($dsn,"root","");
+$sql = "SELECT predmety.name as 'Predmet', znamky.znamka as 'Znamka' FROM znamky,predmety WHERE znamky.predmety_id = predmety.id";
+$znamky = $connection->prepare($sql);
+$znamky->execute();
+$znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
+?>
 <!DOCTYPE HTML>
 <!--
 	Forty by HTML5 UP
