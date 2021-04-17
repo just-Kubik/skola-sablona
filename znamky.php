@@ -27,7 +27,7 @@ $znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.php" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a href="index.php" class="logo"><strong>Jakub Brandejs</strong> <span>photography</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>

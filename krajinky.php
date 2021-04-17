@@ -76,15 +76,15 @@
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.php" class="image">
+									<a class="image">
 										<img src="images/krajinky/pic08.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Orci maecenas</h3>
+												<h3>Canon Eos 600D + Canon 70-300mm f/4-5.6</h3>
 											</header>
-											<p>Neco sem napisu</p>
+											<p>f/7.1 1/3200s ISO-100</p>
 											<ul class="actions">
 												
 											</ul>
@@ -92,15 +92,15 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.php" class="image">
+									<a class="image">
 										<img src="images/krajinky/pic09.jpg" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Rhoncus magna</h3>
+												<h3>Canon Eos 600D + Tokina 28mm f/2.8</h3>
 											</header>
-											<p>Neco sem napisu</p>
+											<p>f/2.8 1/640s ISO-100</p>
 											<ul class="actions">
 												
 											</ul>
@@ -108,15 +108,15 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.php" class="image">
+									<a class="image">
 										<img src="images/krajinky/pic10.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Sed nunc ligula</h3>
+												<h3>Canon Eos 600D + Canon 70-300mm f/4-5.6</h3>
 											</header>
-											<p>Neco sem proste napisu</p>
+											<p>f/7.1 1/160s ISO-100</p>
 											<ul class="actions">
 											
 											</ul>
@@ -124,15 +124,15 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.php" class="image">
+									<a class="image">
 										<img src="images/krajinky/pic11.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Sed nunc ligula</h3>
+												<h3>Canon Eos 600D + Canon 70-300mm f/4-5.6</h3>
 											</header>
-											<p>Neco sem proste napisu</p>
+											<p>f/6.3 1/100s ISO-100</p>
 											<ul class="actions">
 												
 											</ul>
@@ -140,15 +140,15 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.php" class="image">
+									<a class="image">
 										<img src="images/krajinky/pic12.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Sed nunc ligula</h3>
+												<h3>Canon Eos 60D + Canon 10-22mm f/3.5-4.5</h3>
 											</header>
-											<p>Neco sem proste napisu</p>
+											<p>f/9 1/25s ISO-100</p>
 											<ul class="actions">
 												
 											</ul>
@@ -201,24 +201,24 @@
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
+                                        <h3>Email</h3>
+                                        <a href="#">jakubrandejs@gmail.com</a>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class="contact-method">
+                                        <span class="icon solid alt fa-phone"></span>
+                                        <h3>Telefon</h3>
+                                        <span>773 613 761</span>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
+                                        <h3>Adresa</h3>
+                                        <span>To určitě<br />
+										ještě vám sem <br />
+										dám moji adresu</span>
 									</div>
 								</section>
 							</section>
@@ -229,11 +229,8 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                                <li><a href="https://www.facebook.com/j4kub.Brandejs" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                <li><a href="https://www.instagram.com/jakub_brandejs/?hl=cs" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>

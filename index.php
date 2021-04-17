@@ -46,12 +46,19 @@
 					</nav>
 
 				<!-- Banner -->
-				<section id="banner">
-					<div class="inner">
-						<h2>Jakub Brandejs</h2>
-						<p>Osobní portfolio</p>
-					</div>
-				</section>
+                <section id="banner" class="style2">
+                    <div class="inner">
+							<span class="image">
+								<img src="images/banner1.jpg" alt="" />
+							</span>
+                        <header class="major">
+                            <h1>Jakub Brandejs </h1>
+                        </header>
+                        <div class="content">
+                            <p>Osobní portfolio<br /></p>
+                        </div>
+                    </div>
+                </section>
 
 				<!-- Main -->
 					<div id="main">
@@ -64,7 +71,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="krajinky.php" class="link">Krajinky</a></h3>
-										<p>Ipsum dolor sit amet</p>
+										<p>Landscapes</p>
 									</header>
 								</article>
 								<article>
@@ -73,7 +80,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="nocnifotografie.php" class="link">Noční fotografie</a></h3>
-										<p>feugiat amet tempus</p>
+										<p>Night Photos</p>
 									</header>
 								</article>
 								<article>
@@ -82,7 +89,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="dronovky.php" class="link">Dronovky</a></h3>
-										<p>Lorem etiam nullam</p>
+										<p>Drone Photos</p>
 									</header>
 								</article>
 								<article>
@@ -91,7 +98,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="portrety.php" class="link">Portréty</a></h3>
-										<p>Nisl sed aliquam</p>
+										<p>portrait</p>
 									</header>
 								</article>
 								<article>
@@ -100,7 +107,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="me.php" class="link">O mně</a></h3>
-										<p>Ipsum dolor sit amet</p>
+										<p>About me</p>
 									</header>
 								</article>
 								<article>
@@ -109,7 +116,7 @@
 									</span>
 									<header class="major">
 										<h3><a href="ostatni.php" class="link">Ostatní fotografie</a></h3>
-										<p>Feugiat amet tempus</p>
+										<p>Others photos</p>
 									</header>
 								</article>
 							</section>
@@ -118,11 +125,10 @@
 							<section id="two">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+
 									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
@@ -136,7 +142,7 @@
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
+											<label for="name">Jméno</label>
 											<input type="text" name="name" id="name" />
 										</div>
 										<div class="field half">
@@ -144,7 +150,7 @@
 											<input type="text" name="email" id="email" />
 										</div>
 										<div class="field">
-											<label for="message">Message</label>
+											<label for="message">Zpráva</label>
 											<textarea name="message" id="message" rows="6"></textarea>
 										</div>
 									</div>
@@ -159,23 +165,23 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
+										<a href="#">jakubrandejs@gmail.com</a>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
+										<h3>Telefon</h3>
+										<span>773 613 761</span>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
+										<h3>Adresa</h3>
+										<span>To určitě<br />
+										ještě vám sem <br />
+										dám moji adresu</span>
 									</div>
 								</section>
 							</section>
@@ -186,11 +192,11 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+
+								<li><a href="https://www.facebook.com/j4kub.Brandejs" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/jakub_brandejs/?hl=cs" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+
+
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
