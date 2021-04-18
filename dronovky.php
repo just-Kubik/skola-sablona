@@ -67,7 +67,7 @@
 							<section id="two" class="spotlights">
 								<section>
 									<a class="image">
-										<img src="images/dronovky/pic08.JPG" alt="" data-position="center center" />
+										<img src="images/dronovky/pic08.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">

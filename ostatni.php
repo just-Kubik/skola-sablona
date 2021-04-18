@@ -67,7 +67,7 @@
 							<section id="two" class="spotlights">
 								<section>
 									<a class="image">
-										<img src="images/ostatni/pic08.JPG" alt="" data-position="center center" />
+										<img src="images/ostatni/pic08.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -99,7 +99,7 @@
 								</section>
 								<section>
 									<a class="image">
-										<img src="images/ostatni/pic10.JPG" alt="" data-position="25% 25%" />
+										<img src="images/ostatni/pic10.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">

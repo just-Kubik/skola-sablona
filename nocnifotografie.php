@@ -45,7 +45,7 @@
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
-								<img src="images/nocnifoto/pic07.JPG" alt="" />
+								<img src="images/nocnifoto/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
 								<h1>Noční fotografie</h1>
