@@ -37,10 +37,7 @@
 							<li><a href="ostatni.php">Ostatní</a></li>
 							<li><a href="znamky.php">Známky</a></li>
 						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
+
 					</nav>
 
 				<!-- Banner -->
@@ -54,7 +51,7 @@
 								<h1>O mně</h1>
 							</header>
 							<div class="content">
-								<p>Moje fotky krajinek a přírody<br /></p>
+								<p>Něco málo o mé maličkosti<br /></p>
 							</div>
 						</div>
 					</section>
@@ -66,9 +63,9 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Celý tento obdelnik hodit dopice</h2>
+										<h2>Jmenuji se Jakub Brandejs</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+									<p>Je mi 20 let a studuji na VUT v Brně. </p>
 								</div>
 							</section>
 
@@ -81,9 +78,9 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Orci maecenas</h3>
+												<h3>Canon Eos 60D + Canon 50mm f/1.8 II</h3>
 											</header>
-											<p>Neco sem napisu</p>
+											<p>f/4 1/125s ISO-250</p>
 											<ul class="actions">
 												
 											</ul>
@@ -97,9 +94,9 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Rhoncus magna</h3>
+												<h3>Canon Eos 60D + Canon 50mm f/1.8 II</h3>
 											</header>
-											<p>Neco sem napisu</p>
+											<p>f/2.8 1/500s ISO-100</p>
 											<ul class="actions">
 												
 											</ul>
@@ -113,11 +110,10 @@
 							<section id="three">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h2></h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p></p>
 									<ul class="actions">
-										<li><a href="generic.php" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>

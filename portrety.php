@@ -37,10 +37,7 @@
 							<li><a href="ostatni.php">Ostatní</a></li>
 							<li><a href="znamky.php">Známky</a></li>
 						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
+
 					</nav>
 
 				<!-- Banner -->
@@ -54,8 +51,7 @@
 								<h1>Portréty</h1>
 							</header>
 							<div class="content">
-								<p>Lorem ipsum dolor sit amet nullam consequat<br />
-								sed veroeros. tempus adipiscing nulla.</p>
+								<p>Moje portréty<br /></p>
 							</div>
 						</div>
 					</section>
@@ -64,14 +60,7 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h2>Sed amet aliquam</h2>
-									</header>
-									<p>Nullam et orci eu lorrci eu lorm. In efficitur ligula tate urna.</p>
-								</div>
-							</section>
+
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
@@ -141,11 +130,10 @@
 							<section id="three">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h2></h2>
 									</header>
-									<p>Nullam et orci eu lorem consequondimentum ssonsempus.</p>
+									<p></p>
 									<ul class="actions">
-										<li><a href="generic.php" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>

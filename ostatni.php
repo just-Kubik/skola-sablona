@@ -38,10 +38,7 @@
 							<li><a href="znamky.php">Známky</a></li>
 							
 						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
+
 					</nav>
 
 				<!-- Banner -->
@@ -55,7 +52,7 @@
 								<h1>Ostatní</h1>
 							</header>
 							<div class="content">
-								<p>Moje fotky krajinek a přírody<br /></p>
+								<p>Fotky ze sportovních akcí a táborů<br /></p>
 							</div>
 						</div>
 					</section>
@@ -64,14 +61,7 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h2>Celý tento obdelnik hodit dopice</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-								</div>
-							</section>
+
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
@@ -145,11 +135,10 @@
 							<section id="three">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h2></h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p></p>
 									<ul class="actions">
-										<li><a href="generic.php" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
