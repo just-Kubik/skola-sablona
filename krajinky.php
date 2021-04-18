@@ -31,10 +31,7 @@
 						<ul class="links">
                             <?php include_once "nav.php"?>
 						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
+
 					</nav>
 
 				<!-- Banner -->
@@ -57,14 +54,7 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h2>Celý tento obdelnik hodit dopice</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-								</div>
-							</section>
+
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
@@ -148,17 +138,48 @@
 										</div>
 									</div>
 								</section>
+                                <section>
+                                    <a class="image">
+                                        <img src="images/krajinky/pic13.jpg" alt="" data-position="25% 25%" />
+                                    </a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <header class="major">
+                                                <h3>Canon Eos 60D + Canon 10-22mm f/3.5-4.5</h3>
+                                            </header>
+                                            <p>f/4.5 1/125s ISO-100</p>
+                                            <ul class="actions">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <a class="image">
+                                        <img src="images/krajinky/pic14.jpg" alt="" data-position="25% 25%" />
+                                    </a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <header class="major">
+                                                <h3>Canon Eos 600D + Canon 100mm f/2.8 Macro USM</h3>
+                                            </header>
+                                            <p>f/4.5 1/125s ISO-100</p>
+                                            <ul class="actions">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
 							</section>
 
 						<!-- Three -->
 							<section id="three">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h2></h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<p></p>
 									<ul class="actions">
-										<li><a href="generic.php" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>

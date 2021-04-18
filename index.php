@@ -11,7 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css?v=<?=time()?>" />
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="pictitle.jpg" type="image/x-icon">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -32,10 +32,7 @@
 						<ul class="links">
 							<?php include_once "nav.php"?>
 						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
+
 					</nav>
 
 				<!-- Banner -->
@@ -115,16 +112,16 @@
 							</section>
 
 						<!-- Two -->
-							<section id="two">
-								<div class="inner">
-									<header class="major">
-
-									</header>
-
-									<ul class="actions">
-									</ul>
-								</div>
-							</section>
+                        <section id="three">
+                            <div class="inner">
+                                <header class="major">
+                                    <h2></h2>
+                                </header>
+                                <p></p>
+                                <ul class="actions">
+                                </ul>
+                            </div>
+                        </section>
 
 					</div>
 
@@ -185,11 +182,8 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-
 								<li><a href="https://www.facebook.com/j4kub.Brandejs" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 								<li><a href="https://www.instagram.com/jakub_brandejs/?hl=cs" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-
-
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
