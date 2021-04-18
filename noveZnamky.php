@@ -1,10 +1,15 @@
 <?php
 $dsn = "mysql:host=127.0.0.1;dbname=znamky";
 $connection = new PDO($dsn, "root", "");
-$sql = "SELECT predmety.name as 'Predmet', znamky.znamka as 'Znamka', znamky.datum as 'datum' FROM znamky,predmety WHERE znamky.predmety_id = predmety.id";
-$znamky = $connection->prepare($sql);
-$znamky->execute();
-$znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
+$sql = "INSERT INTO znamky(znamka, predmety_id, datum) VALUES (?,?,CURRENT_TIMESTAMP)";
+$stmt = $connection->prepare($sql);
+
+if (isset($_POST)) {
+    if (isset($_POST["znamka"]) && isset($_POST["predmet"])) {
+		$stmt->execute([$_POST["znamka"],$_POST["predmet"]]);
+    }
+}
+
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -38,7 +43,7 @@ $znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
 	<!-- Menu -->
 	<nav id="menu">
 		<ul class="links">
-            <?php include_once "nav.php"?>
+            <?php include_once "nav.php" ?>
 		</ul>
 		<ul class="actions stacked">
 			<li><a href="#" class="button primary fit">Get Started</a></li>
@@ -48,24 +53,24 @@ $znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
 
 	<!-- Main -->
 	<div id="main" class="alt">
-		<table>
-			<thead>
-			<tr>
-				<th>Předmět</th>
-				<th>Známka</th>
-				<th>Datum</th>
-			</tr>
-			</thead>
-			<tbody>
-            <?php foreach ($znamky as $znamka): ?>
-				<tr>
-					<td><?= $znamka["datum"] ?></td>
-					<td><?= $znamka["Predmet"] ?></td>
-					<td><?= $znamka["Znamka"] ?></td>
-				</tr>
-            <?php endforeach; ?>
-			</tbody>
-		</table>
+		<form action="" method="post">
+			<label for="predmet">Předmět</label>
+			<select name="predmet" id="predmet">
+				<option value="1">PIS</option>
+				<option value="2">MA2</option>
+				<option value="3">FY2</option>
+				<option value="4">ESOT</option>
+			</select>
+			<label for="znamka">Známka</label>
+			<select name="znamka" id="znamka">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+			<input type="submit">
+		</form>
 	</div>
 
 	<!-- Contact -->

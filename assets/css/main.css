@@ -3944,6 +3944,7 @@ input, select, textarea {
 	}
 
 		body.is-menu-visible #menu .inner {
+			overflow: hidden;
 			-moz-transform: none;
 			-webkit-transform: none;
 			-ms-transform: none;
