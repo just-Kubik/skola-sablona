@@ -3,7 +3,7 @@
 <li><a href="nocnifotografie.php">Noční fotografie</a></li>
 <li><a href="dronovky.php">Dronovky</a></li>
 <li><a href="portrety.php">Portréty</a></li>
-<li><a href="me.php">O mě</a></li>
+<li><a href="me.php">O mně</a></li>
 <li><a href="ostatni.php">Ostatní</a></li>
-<li><a href="znamky.php">Známky</a></li>
 <li><a href="noveZnamky.php">Nové známky</a></li>
+<li><a href="znamky.php">Známky</a></li>

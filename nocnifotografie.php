@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Noční fotografie - Jakub Brandejs</title>
@@ -185,64 +181,38 @@
 					</div>
 
 				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-                                        <h3>Email</h3>
-                                        <a href="#">jakubrandejs@gmail.com</a>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="contact-method">
-                                        <span class="icon solid alt fa-phone"></span>
-                                        <h3>Telefon</h3>
-                                        <span>773 613 761</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-                                        <h3>Adresa</h3>
-                                        <span>To určitě<br />
-										ještě vám sem <br />
-										dám moji adresu</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
-
+                <section id="contact">
+                    <div class="inner">
+                        <section>
+								<span class="image">
+										<img src="images/logo2.png" alt="" style="height:300px;weight:300px" />
+									</span>
+                        </section>
+                        <section class="split">
+                            <section>
+                                <div class="contact-method">
+                                    <span class="icon solid alt fa-envelope"></span>
+                                    <h3>Email</h3>
+                                    <span>Prostemail</span>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="contact-method">
+                                    <span class="icon solid alt fa-phone"></span>
+                                    <h3>Telefon</h3>
+                                    <span>Prostetelefon</span>
+                                </div>
+                            </section>
+                        </section>
+                    </div>
+                </section>
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
                                 <li><a href="https://www.facebook.com/j4kub.Brandejs" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
                                 <li><a href="https://www.instagram.com/jakub_brandejs/?hl=cs" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="https://open.spotify.com/user/21g4e7i62qhfdkuat44r72hma?si=f23fb3bb454149b5" class="icon brands alt fa-spotify"><span class="label">Spotify</span></a></li>
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
