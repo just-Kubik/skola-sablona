@@ -1,10 +1,39 @@
 <?php
 $dsn = "mysql:host=127.0.0.1;dbname=znamky";
 $connection = new PDO($dsn, "root", "");
-$sql = "SELECT predmety.name as 'Predmet', znamky.znamka as 'Znamka', znamky.datum as 'datum' FROM znamky,predmety WHERE znamky.predmety_id = predmety.id";
+$sql = "SELECT predmety.name as 'predmet', znamky.znamka as 'znamka', znamky.datum as 'datum' FROM znamky,predmety WHERE znamky.predmety_id = predmety.id";
 $znamky = $connection->prepare($sql);
 $znamky->execute();
 $znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
+$predmety = [];
+foreach ($znamky as $znamka) {
+    if (!isset($predmety[$znamka["predmet"]])) {
+        $predmety[$znamka["predmet"]] = [];
+    }
+    $predmety[$znamka["predmet"]][] = $znamka["znamka"];
+}
+$prumery = [];
+foreach ($predmety as $nazev => $predmet) {
+    try {
+        $prumery[$nazev] = spocitejPrumer($predmet);
+    } catch (Exception $ex) {
+        die();
+    }
+}
+/**
+ * @param array $znamky
+ *
+ * @return float
+ * @throws Exception
+ */
+function spocitejPrumer(array $znamky): float
+{
+    $znamky = array_filter($znamky);
+    if (count($znamky)) {
+        return array_sum($znamky) / count($znamky);
+    } else throw new Exception("Pole prázdné");
+}
+
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -52,6 +81,23 @@ $znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
 			<thead>
 			<tr>
 				<th>Předmět</th>
+				<th>Průměr</th>
+			</tr>
+			</thead>
+			<tbody>
+            <?php foreach ($prumery as $nazev => $prumer): ?>
+				<tr>
+					<td><?= $nazev ?></td>
+					<td><?= round($prumer,1) ?></td>
+				</tr>
+            <?php endforeach; ?>
+			</tbody>
+		</table>
+
+		<table>
+			<thead>
+			<tr>
+				<th>Předmět</th>
 				<th>Známka</th>
 				<th>Datum</th>
 			</tr>
@@ -60,8 +106,8 @@ $znamky = $znamky->fetchAll(PDO::FETCH_ASSOC);
             <?php foreach ($znamky as $znamka): ?>
 				<tr>
 					<td><?= $znamka["datum"] ?></td>
-					<td><?= $znamka["Predmet"] ?></td>
-					<td><?= $znamka["Znamka"] ?></td>
+					<td><?= $znamka["predmet"] ?></td>
+					<td><?= $znamka["znamka"] ?></td>
 				</tr>
             <?php endforeach; ?>
 			</tbody>
