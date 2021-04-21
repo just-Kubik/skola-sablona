@@ -55,7 +55,10 @@
 									<header class="major">
 										<h2>Jmenuji se Jakub Brandejs</h2>
 									</header>
-									<p>Je mi 20 let a studuji na VUT v Brně. </p>
+									<p>Je mi 20 let a focení se věnuji od roku 2017. Žiju v Ústí nad Orlicí. Vystudoval jsem Střední průmyslovou školu elektrotechnickou a momentálně studuji
+                                    V Brně na VUT obor Telekomunikace. </p>
+                                    <p>Pokud zrovna není koronakrize nebo nespím, tak je možné mě vidět všude možně. V zimě se věnuji snowboardingu. Přes léto
+                                    učím na bruslích a dva týdny trávím již několikátým rokem na táboře.</p>
 								</div>
 							</section>
 

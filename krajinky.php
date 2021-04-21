@@ -166,6 +166,22 @@
                                         </div>
                                     </div>
                                 </section>
+                                <section>
+                                    <a class="image">
+                                        <img src="images/krajinky/pic15.jpg" alt="" data-position="25% 25%" />
+                                    </a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <header class="major">
+                                                <h3>Canon Eos 600D + Canon 70-300mm f/4-5.6</h3>
+                                            </header>
+                                            <p>f/6.3 1/200s ISO-100</p>
+                                            <ul class="actions">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
 							</section>
 
 						<!-- Three -->

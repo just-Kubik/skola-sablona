@@ -94,9 +94,9 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Canon Eos 600D + Canon 75-300mm f/4-5.6</h3>
+												<h3>Canon Eos 60D + Canon 50mm f/1.8 II</h3>
 											</header>
-											<p>f/5.6 1/160 ISO-1600</p>
+											<p>f/1.8 1/2500 ISO-100</p>
 											<ul class="actions">
 											
 											</ul>
@@ -119,7 +119,40 @@
 										</div>
 									</div>
 								</section>
+                                <section>
+                                    <a class="image">
+                                        <img src="images/ostatni/pic12.jpg" alt="" data-position="25% 25%" />
+                                    </a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <header class="major">
+                                                <h3>Canon Eos 60D + Canon 50mm f/1.8 II</h3>
+                                            </header>
+                                            <p>f/2.8 1/1250s ISO-100</p>
+                                            <ul class="actions">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <a class="image">
+                                        <img src="images/ostatni/pic13.jpg" alt="" data-position="25% 25%" />
+                                    </a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <header class="major">
+                                                <h3>Canon Eos 600D + Canon 75-300mm f/4-5.6</h3>
+                                            </header>
+                                            <p>f/5.6 1/160 ISO-1600</p>
+                                            <ul class="actions">
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
 							</section>
+
 
 						<!-- Three -->
 							<section id="three">

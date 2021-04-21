@@ -39,7 +39,7 @@ function spocitejPrumer(array $znamky): float
 
 <html>
 <head>
-	<title>Elements - Forty by HTML5 UP</title>
+	<title>Známky - Jakub Brandejs</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 	<link rel="stylesheet" href="assets/css/main.css?v=<?= time() ?>"/>
@@ -91,9 +91,9 @@ function spocitejPrumer(array $znamky): float
 		<table>
 			<thead>
 			<tr>
+				<th>Datum</th>
 				<th>Předmět</th>
 				<th>Známka</th>
-				<th>Datum</th>
 			</tr>
 			</thead>
 			<tbody>
@@ -112,9 +112,9 @@ function spocitejPrumer(array $znamky): float
     <section id="contact">
         <div class="inner">
             <section>
-								<span class="image">
-										<img src="images/logo2.png" alt="" style="height:300px;weight:300px" />
-									</span>
+                <span class="image">
+                    <img src="images/logo2.png" alt="" style="height:300px;weight:300px" />
+                </span>
             </section>
             <section class="split">
                 <section>

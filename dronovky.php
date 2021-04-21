@@ -57,7 +57,7 @@
 							<section id="two" class="spotlights">
 								<section>
 									<a class="image">
-										<img src="images/dronovky/pic08.jpg" alt="" data-position="center center" />
+										<img src="images/dronovky/pic08.JPG" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -82,7 +82,6 @@
 											</header>
 											<p>f2.8 1/400s ISO-100</p>
 											<ul class="actions">
-												
 											</ul>
 										</div>
 									</div>
@@ -98,7 +97,35 @@
                                             </header>
                                             <p>f2.2 1/250s ISO-100</p>
                                             <ul class="actions">
-
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <a class="image">
+                                        <img src="images/dronovky/pic11.jpg" alt="" data-position="top center" />
+                                    </a>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <header class="major">
+                                                <h3>DJI Mavic Mini</h3>
+                                            </header>
+                                            <p>f2.8 1/400s ISO-100</p>
+                                            <ul class="actions">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <iframe id="ytplayer" type="text/html" width="640" height="315"
+                                            src="https://www.youtube.com/embed/sI71xNckmHs&t=2s?loop=1&autoplay=1&origin=http://example.com"
+                                            frameborder="0"></iframe>
+                                    <div class="content">
+                                        <div class="inner">
+                                            <header class="major">
+                                                <h3>Tábor Svojanov 2020</h3>
+                                            </header>
+                                            <ul class="actions">
                                             </ul>
                                         </div>
                                     </div>
